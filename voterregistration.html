@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .navbar{
+        position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+    background-color: rgb(42, 43, 43);
+    padding-left: 15px;
+    padding-right: 10px;
+    padding-top: 3px;
+    color: aliceblue;
+
+    }
+    table {
+    text-align: center;
+    border-collapse: collapse;
+    text-indent: initial;
+    border-spacing: 2px;
+}
+, h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    margin-top: 0;
+}
+    
+    
+    #form{
+        font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    margin left: 80px;
+    margin right: 80px;
+    margin: 5px;
+    padding: 5px;
+    max-width: 960px;
+    min-width: 962px;
+    width: 100%;
+    text-align: left;
+    box-sizing: border-box;
+    padding left: 15px  ;
+    padding right: 15px;
+    outline:none;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    }
+    #fd{
+        background-color:gainsboro;
+        
+    }
+    #div1{
+        background-color:rgb(199, 197, 197); ;
+        color: black;
+        padding: 18px;
+        font-weight: bold;
+        
+    }
+    div {
+        color: blueviolet;
+        background-color: rgb(250, 253, 252);
+        
+    }
+    #app{
+        padding: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    background-color: rgb(224, 171, 157);;
+    }
+    #div3{
+        margin-right: 0%;
+        margin-left: 260px;
+        background-color: gainsboro;
+        color: black
+    }
+    #div34{
+        margin-right: 0%;
+        margin-left: 260px;
+        background-color: gainsboro;
+        color: black
+    }
+    #first{
+        margin-right: 0%;
+        margin-left: 260px;
+        background-color: gainsboro;
+        color: black
+    }
+    #manda{
+        margin: 20px;
+        padding: 20px;
+        color: black;
+        background-color: rgb(224, 171, 157);
+        
+    }
+    #current{
+        margin: 20px;
+        padding: 20px;
+        color: black;
+        background-color: rgb(224, 171, 157);
+        
+    }
+    #opt{
+        margin: 20px;
+        padding: 20px;
+        color: black;
+        background-color: rgb(224, 171, 157);
+    }
+    #aid{
+        margin: 20px;
+        padding: 20px;
+        color: black;
+        background-color: rgb(224, 171, 157);
+    }
+    a{
+        margin: 30px;
+    }
+    #my{
+        margin-right: 0%;
+        margin-left: 260px;
+        background-color: gainsboro;
+        color: black
+    }
+    #abcde{
+        background-color: gainsboro;
+        color: black;
+        margin-right: 0%;
+        margin-left: 260px;
+    }
+    #abcd{
+        background-color: gainsboro;
+        color: black;
+        margin-right: 0%;
+        margin-left: 260px;
+    }
+    #abc{  background-color: gainsboro;
+        color: black;
+        margin-right: 0%;
+        margin-left: 260px;
+
+    }
+    #your{
+        background-color:gainsboro ;
+        color: black;
+    }
+    #proof{
+        background-color:gainsboro ;
+        color: black;
+    }
+    #age{
+        background-color:gainsboro ;
+        color: black;
+    }
+    #dic{
+        margin: 20px;
+        height: inherit;
+        padding: 20px;
+        color: black;
+        background-color: rgb(224, 171, 157);
+    }
+    #ab{background-color: gainsboro;
+        text-align: left;
+        color: black;
+
+    }
+    #city{
+        background-color: gainsboro;
+        margin-left: 229px;
+        color: black;
+
+    }
+    #sd{background-color: gainsboro;
+        margin-left: 260px;
+        color: black;
+
+    }
+    #date{
+        background-color: gainsboro;
+        margin-left: 260px;
+        color: black;
+    }
+    
+    #radio{
+        
+        background-color: gainsboro;
+        color: black;
+        margin-right: 0%;
+        margin-left: 260px;
+    }
+    #or1{
+        
+        font-weight: bolder;
+        background-color: gainsboro;
+        margin-left: 280px;
+        color: black;
+
+    }
+    #radio2{
+        text-align: center;
+        background-color:gainsboro ;
+        color: black;
+        margin-left:250px;
+    }
+    img{
+        width: 150px;
+    }
+    #loc{
+        background-color:gainsboro ;
+        color: black;
+        margin-left:250px;
+    }
+    #iam{
+        background-color: gainsboro;
+        color: black;
+    }
+    #captcha{
+        
+        text-align:left;
+        background-color:gainsboro ;
+        color: black;
+    }
+    #bt{
+        text-align: center;
+        margin-right: auto;
+        margin-left: auto;
+        background-color: gainsboro;
+        margin-bottom: 10px !important;
+    margin-left: 8px;
+    font-weight: bold;
+    border-color: green;
+
+
+    }
+    #bt1{
+        background-color: green;
+        color: white;
+        font-weight: bold;
+        padding: 10px;
+    }
+    #bt2{
+        background-color: green;
+        color: white;
+        font-weight: bold;
+        padding: 10px;
+    }
+</style>
+<body>
+    <header>
+    <div class="navbar" style="align-content" center>
+        <table>
+            <tbody>
+                <tr>
+                    <td>
+                        <a href="#" class="icon">
+                            <img src="flag.png" alt="" style="width: 140px;">
+                        </a>
+                    </td>
+                    <td>
+                        <h1 style="font-family: 'Hindi', sans-serif;">
+                         &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; राष्ट्रीय मतदान सेवा &nbsp; डेमो &nbsp; पोर्टल  
+                        </h1>
+                    </td>
+                    <td>
+                        <h1>
+                            &nbsp; &nbsp;&nbsp; &nbsp;    NATIONAL VOTERS' SERVICES  &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;
+                                DEMO&nbsp; &nbsp;  PORTAL  &nbsp; &nbsp; 
+                        </h1>
+                    </td>
+                    <td>
+                        <a href="#">
+                            <img src="https://internship.suvenconsultants.com/projects/Voter_FORM6/images/vote.png" style="width: 140px; border-radius:8px;" alt="">
+                        </a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+    </div>
+</header>
+
+
+    <div>
+
+    </div>
+
+
+    <div>
+
+    </div>
+
+    <div id="form">
+    
+    <div >
+        Note: Fields marked with asterisks ( * ) are mandatory
+    </div>
+    <form>
+        <fieldset id="fd">
+            <div id="div1">
+                Type 6
+                <br>
+                [See rule 13(1) and 26]
+            </div>
+             <br>
+            <div id="app">
+               <b> Application for inclusion of name in the electoral roll for the first time due to the transfer of voter or any other constituency from any one constituency </b>
+            </div> 
+            <br><br>
+             in service 
+             <br>
+             <br><br>
+             Electoral Registration Officer,
+             <br>
+             <br>
+           <div id="div3">
+             State: 
+             <select >
+                 <option value=" select"> select </option>
+                 <option value="your city">your city</option>
+
+             </select> 
+
+             District:
+             <select >
+                 <option value="select">select</option>
+                 <option value=" your district">your district</option>
+                
+             </select>
+            </div>
+             <br>
+             <br>
+             <div id="div34">
+             Legislative Assembly / Parlimentary
+             <select>
+                 <option value="select">select</option>
+
+             </select>
+             constituency
+            </div>
+             <br>
+             <br>
+             I request that my name be included in electoral rolls for all the aforesaid areas.
+             <br>
+             <br>
+             <div id="first">
+              <input type="radio" name="radio" />First time voter
+              <br>
+              <input type="radio" > Due to transfer from other meeting areas
+            </div>
+              <br>
+              <br>
+Below are specifications in support of my claim to be included in the electoral rolls.
+<br>
+<div id="manda">
+  <b> Mandatory specifications</b>
+</div>
+<div id="my">
+<br>
+<br>
+  (A) Name: <input type="text" required="" placeholder="(in English)" name=" text"  > <input type="text" name="text" placeholder="(in regional)">
+  <br>
+  <br>
+   (B)Sur Name(if any): <input type="text" name="text"placeholder="(in English)" required="" > <input type="text" name="text"placeholder="(in regional)" required="" >
+<br>
+<br>
+(C) Name of the applicant's relative:
+<input type="text" name="text"placeholder="(in English)" required="" > <input type="text" name="text"placeholder="(in regional)" required="" >
+<br>
+<br>
+Nickname of the applicant's relative:
+<input type="text" name="text"placeholder="(in English)" required="" > 
+<input type="text" name="text"placeholder="(in regional)" required="" >
+<br>
+<br>
+(D) Type of the relationship
+<select>
+    <option value="select"> select </option>
+</select>
+<br>
+<br>
+
+
+    <input type="radio"> (E) Age [on January 1 of the current calender] <input type="text" name="text" placeholder="2019">
+    <select>
+        <option value="year">year</option>
+    </select>
+    <select><option value="month">month</option></select>
+    <br>
+    <br>
+    <b>0r</b>
+    <br>
+    <br>
+    <input type="radio" name="radio" >F) Date of birth (in the form of day/ month/ year 
+    <input type="datetime-local" name="" id="">
+    <br>
+    (if known) 
+    <br>
+    <br>
+    <br>
+    (G) Applicant's gender 
+    <select>
+        <option value="select">select</option>
+    </select>
+    </div>
+    <br>
+    <br>
+    <div id="current"> <b>
+        
+    (H) Current address, whose applicant is nominally resident </b>
+</div>
+<br>
+<br>
+<div id="abcde">
+House no.
+<input type="text" required="" placeholder="(in English)" name=" text"  >
+<input type="text" name="text"placeholder="(in regional)" required="" >
+<br>
+<br>
+Street / area / location 
+<input type="text" required="" placeholder="(in English)" name=" text"  >
+<input type="text" name="text"placeholder="(in regional)" required="" >
+<br>
+<br>
+City / Village: 
+<input type="text" required="" placeholder="(in English)" name=" text"  >
+<input type="text" name="text"placeholder="(in regional)" required="" >
+<br>
+<br>
+Post Office:
+<input type="text" required="" placeholder="(in English)" name=" text"  >
+<input type="text" name="text"placeholder="(in regional)" required="" >
+<br>
+<br>
+Pin Code 
+<input type="text" name="pincode" id="">
+<br>
+<br>
+State / Union Territory
+<select>
+    <option value="select">select</option>
+</select>
+<br>
+<br>
+District
+<select>
+    <option value="select">select</option>
+</select>
+<br>
+<br>
+<br>
+<br>
+Family / Neighbour Epic No
+<input type="text" name="" id="">
+<br>
+<br>
+<br>
+</div>
+<div id="opt"> <b>
+  Optional specialties</b>
+</div>
+<br>
+<br>
+<br>
+<div id="abcd">
+(T) Disability (if any)
+<br>
+<br>
+<br>
+<input type="checkbox" name="" id="">Visual impairment <input type="checkbox" name="" id="">Speech and hearing impairment <input type="checkbox" name="" id="">Motion disabling 
+<input type="checkbox" name="" id="">other <input type="text">
+<br>
+<br>
+<br>
+(Th) Email ID (optional) 
+<input type="text" name="" id="">
+<br>
+<br>
+<br>
+(D) mobile number (optional)
+ +91 <input type="text" name="" id=""></div>
+ <br> 
+ <br>
+ <div id="aid">
+   <b> Upload supporting documents (Supported formats .jpg, .png, .bmp, .jpeg) (max. 2MB)  </b>
+     <a href="https://internship.suvenconsultants.com/projects/Voter_FORM6/" > List of supported documents  </a>
+ </div>
+ <br>
+ <br>
+ <br>
+ <div id="abc">
+ <div id="your">
+ Your photo <br>
+ <input type="file" name="image" id="" placeholder="no file choosen"/>
+</div> 
+ <div id="age">
+ Age proof <br>
+ <input type="file" name="image" id="" placeholder="no file choosen"/> 
+ Document type
+  <select >
+     <option value="select">select</option>
+ </select>
+</div>
+<div id="proof">
+    Adress proof <br>
+ <input type="file" name="image" id="" placeholder="no file choosen"/>
+ Document type <select >
+    <option value="select">select</option>
+</select>
+</div>
+</div>
+<br>
+<br>
+<div id="dic">
+  <b> Declaration</b>
+</div>
+<br>
+<br>
+
+<div id="ab">
+    I declare I declare that according to my best knowledge and belief
+<br>
+    I am a citizen of India and of my birth;
+ 
+</div>
+ <br>
+
+<div id="city">
+    City / Village: <input type="text" name="" id="">
+</div>
+
+<br>
+<div id="sd">
+    Select state 
+    <select id="opt1">
+        <option value="select">select</option>
+    </select>
+    District  <select id="opt2">
+        <option value="select">select</option>
+    </select>
+</div>
+<br>
+<div id="date">
+    date <input type="date" name="Date" id="">
+</div>
+<br>
+(ii) I am a nominally resident in the address given in the above (date, month, year) above;
+<br>
+I have not applied to include my name in the electoral roll for any other constituency;
+<br>
+<br>
+<div id="radio">
+    <input type="radio" name="radio" id="">(iv) My name has not been already included in the electoral roll for this or any other assembly / parliamentary constituency
+</div>
+<br>
+<br> <div id="or1">
+<b>Or</b> 
+</div>
+<br>
+<br> <div id="radio2">
+<input type="radio" name="radio" id=""> My name would have been included in electoral rolls of the State's constituency, in which I was already residing in the address mentioned below, and if so, then I request that it be removed from that electoral roll. Go
+</div>
+<br>
+<br>
+<div id="loc">
+    Location <input type="text" name="" id=""> date <input type="date" name="date" id="">
+</div>
+<br>
+<br>
+<div id="iam"> 
+    I am afraid that the statement or declaration, which is false, to whom I know it or believe that it is false or I do not believe in being true, the People's Representation Act, 1950 (43 of 1950 ) Is punishable under section 31
+</div>
+<br>
+
+<div id="captcha">
+   captcha <img src="https://internship.suvenconsultants.com/projects/Voter_FORM6/images/captcha.png" alt=""> <input type="text" name="" id="">
+</div>
+<br>
+<br>
+<div id="bt">
+    <button id="bt1">
+        Reset
+    </button>
+    <button id="bt2">
+        Submit
+    </button>
+</div>
+</div>
+        </fieldset>
+    
+    </form>
+
+    
+</body>
+</html>
