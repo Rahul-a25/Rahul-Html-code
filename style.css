@@ -1,0 +1,79 @@
+.home  li{
+    float: right;
+    
+}
+
+
+.form{
+    margin-right: 25px;   
+}
+.green{
+    
+    font-weight: 800;
+    color: green;
+}
+.contact{
+    margin-right: 29px;
+    color: green;
+}
+.first-box{
+   
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-bottom: green;
+    border-top: green;
+    border: 2px solid gray;
+    
+}
+.content1{
+    margin-top: 25px;
+    color: black;
+    font-weight: 640;
+
+}
+.second-box{
+   
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-bottom: green;
+    border-top: green;
+    border: 2px solid gray;
+}
+.first-box img{
+    width: 510px;
+    height: 244px;
+}
+.content2{
+   float: left;
+}
+#msg{
+    width: 100%;
+    height: 300px;
+}
+.text{
+    width: 100%;
+    border-radius: 5px;
+    border: 2px solid gray;
+}
+.btna{
+    text-align: center;
+    background-color: green;
+    color: white;
+  
+}
+.spn{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    margin-top: 25px;
+    gap: 20px;
+}
+.your{
+    width: 362px;
+    border: 2px solid gray;
+    border-radius: 5px;
+}
